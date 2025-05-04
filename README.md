@@ -1,2 +1,2 @@
 <!-- open sourced features -->
-- [Onboarding Flow](assets/onboarding-demo.mp4)
+- [Onboarding Flow](assets/onboarding-demo.gif)
