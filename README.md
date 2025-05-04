@@ -1,2 +1,2 @@
 <!-- open sourced features -->
-- [Onboarding Flow](assets/onboarding-demo.gif)
+- [Onboarding Flow](./assets/onboarding-demo.gif)
