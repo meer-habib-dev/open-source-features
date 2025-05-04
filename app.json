@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Plant Pal",
+    "slug": "plant-pal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "plant-pal",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.meerhabib.give_me_a_star"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router", "expo-font", ["expo-image-picker"]],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.meerhabib.give_me_a_star"
+    }
+  }
+}
