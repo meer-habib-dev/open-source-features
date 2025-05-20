@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.meerhabib.give_me_a_star"
+      "bundleIdentifier": "com.meerhabib.givemeastar"
     },
     "web": {
       "bundler": "metro",
@@ -22,7 +22,7 @@
       "typedRoutes": true
     },
     "android": {
-      "package": "com.meerhabib.give_me_a_star"
+      "package": "com.meerhabib.givemeastar"
     }
   }
 }

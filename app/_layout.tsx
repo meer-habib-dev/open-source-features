@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Stack } from 'expo-router';
+import { router, Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
 import {
@@ -9,11 +9,15 @@ import {
   Inter_700Bold,
 } from '@expo-google-fonts/inter';
 import { SplashScreen } from 'expo-router';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import {
+  GestureHandlerRootView,
+  TouchableOpacity,
+} from 'react-native-gesture-handler';
 
 import { Image } from 'expo-image';
 import '../global.css';
 import { ThemeProvider } from '@/lib/theme';
+import { Ionicons } from '@expo/vector-icons';
 // Prevent splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
 
@@ -71,6 +75,14 @@ export default function RootLayout() {
           <Stack.Screen
             name="onboarding"
             options={{ animation: 'slide_from_right' }}
+          />
+          <Stack.Screen
+            name="waveform-demo"
+            options={{
+              animation: 'slide_from_right',
+              headerShown: true,
+              headerTitle: 'Home',
+            }}
           />
 
           <Stack.Screen name="+not-found" options={{ animation: 'fade' }} />
